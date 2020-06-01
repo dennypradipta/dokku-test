@@ -12,5 +12,5 @@ RUN npm install -g pm2 --silent
 COPY . .
 
 # Expose
-EXPOSE 3000
+EXPOSE 3002
 CMD ["pm2-runtime", "bin/www"]
